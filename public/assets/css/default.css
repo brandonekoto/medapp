@@ -1,0 +1,293 @@
+.main-bar{
+    position: relative;
+}
+.box-options{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    top: 0;
+    float: right;
+}
+
+
+.user-profile{
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+#list-agents{
+    
+}
+#list-agents td, #list-agents th{
+    //text-align: center;
+    vertical-align: middle;
+}
+.table td, .table th{
+    //text-align: center;
+    vertiacl-align: middle !important;
+}
+
+
+#content {
+    background-color: #fff;
+}
+.refproduit{
+    font-size: 2.3em;
+    font-weight: bolder;
+    text-align: center;
+    font-family: "Courier New";
+    position: absolute;
+    bottom: 0px;
+    background: rgba(205,0,103,.9);
+    color : #fff;
+    text-shadow : 0px 1px 5px #000  ;
+    width: 100%;
+}
+.wrapImgProfile{
+    position: relative;
+    min-height: 200px;
+    
+    height: auto;
+}
+.wrapImgProfile img{
+    width: 100%;
+    height: 100%;
+}
+
+.quick-btn{
+    min-width: 60px;
+    width: auto;
+    max-height: 100px;
+    padding: 10px;
+}
+
+.user-img{
+    width: 74px !important;
+    height: 74px !important;
+}
+.well{
+    padding: 5px;
+}
+#listTodayPatient{
+    
+}
+#listTodayPatient .item-patient{
+    overflow: auto;
+    height: auto;
+    margin-bottom: 10px;
+    border-bottom: solid #cccccc 1px;
+}
+#listTodayPatient .item-patient img{
+    width: 60px; 
+    height: 60px;
+}
+#listTodayPatient .item-patient .nompatient{
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.personne-info{
+    
+}
+
+.line-personne-info{
+    padding: 10px 0px;
+    display: flex;
+    border-bottom: solid 1px #cccccc;
+    
+}
+.line-personne-info:last-child{
+    border-bottom: none;
+}
+.line-personne-info .champ ,.line-personne-info .val-line-personne-info {
+    display: block;
+    width: 100%;
+}
+.line-personne-info .champ{
+    
+}
+.line-personne-info .val-line-personne-info{
+    font-weight: bolder;
+}
+.panel-title > a{
+    position: relative;
+    display: block;
+}
+.icone-drop{
+    position: absolute;
+    width: 35px;
+    top: -7px;
+    right: 0;
+    height: 35px;
+    background-image: url(icone/carouselLeftNavON.png);
+    background-position: center;
+}
+.grid-data{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+.grid-data .item-grid-data{
+    display: flex;
+    flex-direction: column;
+    color: #666666;
+   
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 20px;
+    border: solid 1px #e0e0e0;
+    margin: 7px;
+    border-radius: 10px;
+    min-width: 110px;
+}
+.grid-data .item-grid-data .item-grid-data-icone{
+    
+}
+.grid-data .item-grid-data{
+    
+}
+.grid-data .anamnese{
+    width: 100%;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-self: stretch;
+    order: 0;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.grid-data .item-grid-data span{
+    display: inline-block;
+}
+
+.grid-data .item-grid-data .item-grid-data-val{
+    font-size: 1.8em;
+    font-weight: bolder;
+    position: relative;
+}
+
+
+.wrapAutocompleListe{
+    position: absolute;
+    background-color: #ebebeb;
+    width: 200px;
+    padding: 5px;
+    border : solid transparent 1px;
+    box-shadow: 0px 3px 5px #cccccc;
+    border-radius: 0px 0px 3px 3px;
+    overflow-y: scroll;
+    min-width: auto;
+    height: 250px;
+    max-height: 350px;
+    z-index: 999999999999999999;
+    margin-top: 33px;
+    margin-left: 10px;
+}
+.wrapAutocompleListe ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: auto;
+    position: relative;
+}
+.wrapAutocompleListe ul li{
+    width: 100%;
+    overflow: auto;
+    cursor: pointer;
+    clear: both;
+    padding: 5px 0px;
+    border-bottom: solid #c8dcc8 1px;
+}
+.wrapAutocompleListe ul li:last-child{
+    border-bottom: none;
+}
+
+
+.item-suggestion{
+    
+}
+.item-suggestion img{
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.item-suggestion .item-suggestion-data{
+    
+}
+
+.item-suggestion-data {
+    float: left;
+    position: relative;
+    width: calc(100% - 45px);
+    margin-left: 5px;
+}
+.item-suggestion-data .addProductToBasket{
+    float: right;
+    margin-left: 5px;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    justify-content: center;
+    align-items: center;
+}
+ .addProductToBasket{
+    float: right;
+    margin-left: 5px;
+    height: 100%;
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.item-suggestion-data p{
+    font-size: 0.6em;
+    margin: 0px;
+    padding: 0px;
+}
+.item-suggestion-data h5{
+    font-size: 0.8em;
+    margin: 0px;
+    padding: 0px;
+}
+#patientInfo{
+    position: relative;
+    z-index: inherit;
+}
+.breadcrumb{
+    background-color: transparent !important;
+    margin-bottom: 0;
+    padding: 0px;
+}
+.breadcrumb li{
+    color: #d44204;
+}
+.Footer, #footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+#monnaie{
+    border: none;
+}
+.mode_conservation{
+    font-size: 0.6em;
+    display: block;
+}
+
+.tauxjour{
+    color: #d44204;
+    font-weight: bolder;
+    
+}

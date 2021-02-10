@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes>
+    <route url="/" controller= "home" action="index">        
+    </route>
+    <route url=""></route>
+</routes>

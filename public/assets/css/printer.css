@@ -1,0 +1,62 @@
+@media print{
+    
+@page{    
+    margin: 5%;
+    margin-top: 10%;
+    size: 445px portrait !important;
+    
+}
+    body{
+        //background-image: url(../img/BACK.png) !important;
+        background-repeat: repeat !important;
+        font-family: "Courier New" !important;
+    }
+    #wrapFacture{
+        text-align: center;
+        border: solid 2px #cccccc;
+    }
+    #factureHeader p{
+        font-size: 7pt;
+    }
+    .personne-info{
+        text-align: left !important;
+    }
+    br{
+        display: none;
+    }
+    hr{
+        padding: 1px;
+        margin: 1px;
+        margin-bottom: 0,5pt;
+        margin-top: 0,5pt;
+    }
+    .validefacture{
+        display: none;
+    }
+    .btn {
+        display: none;
+    }
+    .titre{
+        text-align: center;
+        margin: 0;
+        padding: 5px;
+    }
+    .print-message{
+        display: none;
+    }
+    .line-personne-info{
+        padding: 2px !important;
+        display: block !important;
+        width: auto !important;
+    }
+    .line-personne-info span{
+        display: inline-block !important;
+        width: auto !important;
+        
+    }
+    .val-line-personne-info{
+        display: inline-block !important;
+        width: auto !important;
+    }
+    
+}
